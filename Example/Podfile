@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'KBCommonKit_Example' do
+  pod 'KBCommonKit', :path => '../'
+
+  target 'KBCommonKit_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
