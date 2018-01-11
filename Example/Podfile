@@ -1,5 +1,5 @@
 use_frameworks!
 
 target 'KBCommonKit_Example' do
-  pod 'KBCommonKit/source', :path => '../'
+  pod 'SDWebImage'
 end
