@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'liuweiqing' => 'liuweiqing@lianjia.com' }
-  s.source           = { :git => 'https://github.com/niuniuzuiniu/KBCommonKit.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/niuniuzuiniu/KBCommonKit', :tag => s.version.to_s }
 
   s.ios.deployment_target = '8.0'
 
