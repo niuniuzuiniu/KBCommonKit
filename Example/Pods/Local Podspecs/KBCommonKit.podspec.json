@@ -1,0 +1,32 @@
+{
+  "name": "KBCommonKit",
+  "version": "1.0.0",
+  "summary": "A short description of KBCommonKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/liuweiqing/KBCommonKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "liuweiqing": "liuweiqing@lianjia.com"
+  },
+  "source": {
+    "git": "https://github.com/liuweiqing/KBCommonKit.git",
+    "tag": "1.0.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "subspecs": [
+    {
+      "name": "source",
+      "source_files": "KBCommonKit/Classes/libextobjc/**/*"
+    },
+    {
+      "name": "lib",
+      "vendored_libraries": "Example/KBCommon/libKBCommon.a",
+      "source_files": "KBCommonKit/Classes/libextobjc/*.{h}"
+    }
+  ]
+}

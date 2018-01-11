@@ -1,0 +1,6 @@
+framework module KBCommonKit {
+  umbrella header "KBCommonKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
