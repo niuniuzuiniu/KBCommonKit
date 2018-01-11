@@ -1,17 +1,15 @@
 Pod::Spec.new do |s|
   s.name             = 'KBCommonKit'
   s.version          = '1.0.0'
-  s.summary          = 'A short description of KBCommonKit.'
+  s.summary          = 'A short'
 
-  s.description      = <<-DESC
-                     测试
-                       DESC
+                      
 
   s.homepage         = 'https://github.com/niuniuzuiniu/KBCommonKit'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'liuweiqing' => 'liuweiqing@lianjia.com' }
-  s.source           = { :git => 'https://github.com/niuniuzuiniu/KBCommonKit', :tag => 1.0.0 }
+  s.source           = { :git => 'https://github.com/niuniuzuiniu/KBCommonKit.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '8.0'
 
