@@ -7,12 +7,20 @@
 //
 
 #import "KBAppDelegate.h"
+#import "KBAppDelegate.h"
 
 @implementation KBAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    NSLog(@"111");
+    NSLog(@"111");
+    NSLog(@"111");
+    NSLog(@"111");
+    NSLog(@"111");
+    NSLog(@"111");
+    NSLog(@"111");
     return YES;
 }
 
